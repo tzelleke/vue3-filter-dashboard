@@ -1,0 +1,15 @@
+.ag-theme-alpine {
+  --ag-background-color: #f8fafc;
+  --ag-header-background-color: #fff;
+  --ag-odd-row-background-color: #fff;
+}
+
+.ag-theme-alpine-dark {
+  --ag-background-color: #0f172a;
+  --ag-header-background-color: #020617;
+  --ag-odd-row-background-color: #020617;
+}
+
+.ag-cell-focus {
+  --ag-range-selection-border-color: transparent !important;
+}

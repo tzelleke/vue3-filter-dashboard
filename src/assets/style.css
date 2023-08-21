@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply font-bold;
+    @apply mb-2;
+  }
+  p {
+    @apply mb-4;
+  }
+}

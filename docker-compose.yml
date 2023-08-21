@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  vite:
+    container_name: vite
+    image: vite
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: node
+    ports:
+      - 127.0.0.1:5173:5173
+    volumes:
+      - .:/home/node/project
